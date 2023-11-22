@@ -1,0 +1,19 @@
+Chapter 1:
+    Key Terms:
+        crates - a package of rust code
+        macro - denoted by ! is something we'll learn about later
+
+    Commands:
+        rustup - rust version manager
+        rustc - rust compiler
+        rustfmt - rust formatter follows community codestyle standard
+        rustfix - fixes simple compiler warnings/errors that do no affect functionality
+        cargo - rust project/dependency manager
+            fmt - formats all code in current crate
+            build - builds project in debug mode
+            run - runs the project, builds if files have changed or project is not built
+            check - checks if the project can compile but does not compile, faster than build
+            new - creates a rust project
+            build --release - builds the program for release, so optimized with no debug info
+            --timings - produce timing reports for actions 
+        rustup docs --book - opens the instructional book I'm using in an offline mode in case I'm ever working without internet like some plebeian.
