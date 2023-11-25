@@ -1,12 +1,11 @@
 use rand::Rng;
-use std::cmp::Ordering;
-use std::io;
+use std::{cmp::Ordering, io};
 
 fn main() {
     println!("Guess the number!");
     println!("Enter 'exit' to quit.");
 
-    let secret_number = rand::thread_rng().gen_range(1..=100);
+    let secret_number = rand::thread_rng().gen_range(0..=2048);
 
     loop {
         println!("Please input your guess.");
